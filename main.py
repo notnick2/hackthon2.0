@@ -3,7 +3,7 @@ import streamlit as st
 
 from openai import OpenAI
 
-client = OpenAI(api_key = "sk-proj-ijhKEtNHYmVrNPslMemwT3BlbkFJwkaOMTa62mK5kyZW9qbA")
+client = OpenAI(api_key = "")
 
 if 'step' not in st.session_state:
     st.session_state.step = 0
